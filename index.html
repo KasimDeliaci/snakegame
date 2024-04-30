@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasim's Snake</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Oyunun oynandığı canvas alanı -->
+    <canvas class="game-canvas"></canvas>
+    <!-- Oyun başlangıç ekranı, js ile eventlistener ekleyip sonra gizlenilecek -->
+    <div id="startScreen" class="game-over">
+        <h1>Kasım's Snake</h1>
+        <p>WASD to move and Shift to speed up <br><br> You have no limits make the best score!</p>
+        <button id="button">Let's Play</button>
+    </div>
+
+    <!-- Oyun bitiş ekranı, başlangıçta görünmez -->
+    <div class="game-over" id="gameOver" style="display: none;">
+        <div class="game-over-row game-over-title">GAME OVER!</div>
+        <div class="game-over-row" id="finalScore">Score: 0</div>
+        <div class="game-over-row game-over-restart">Press <b>Enter</b> to restart</div>
+    </div>
+    <!--JS dosyalarımızı script tag'i ile ekliyoruz-->
+    <script src="./scripts/Snake.js"></script>
+    <script src="./scripts/Apple.js"></script>
+    <script src="./scripts/Game.js"></script>
+    
+</body>
+</html>

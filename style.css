@@ -1,0 +1,102 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    height: 100%; 
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+    background: #000; /* Optional: if you want the body to have a solid color when the canvas is not covering it */
+}
+
+h1{
+    margin-bottom: 7px;
+}
+
+#button {
+    font-size: 15px;
+    background-color: rgb(223, 223, 183);
+    border: 1px solid #d9d9ad;
+    border-radius: 10px;
+}
+#button:hover {
+    opacity: 1; /* Full opacity when hovering over the restart prompt */
+    cursor: pointer; /* Change cursor to indicate it can be clicked (even though it's the Enter key that triggers the restart) */
+}
+
+
+canvas {
+    display: block;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box; 
+}
+
+.game-over {
+    display: none; /* Hidden by default */
+    position: fixed; /* Use fixed to keep it in place even if the canvas scrolls */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(230, 13, 13, 0.9);
+    color: white;
+    width: 40%;
+    height: 21%;
+    border-radius: 15px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#startScreen {
+    background-color: beige;
+    color: black;
+    padding-bottom: 25px;
+    
+}
+
+.game-over-row {
+    flex: 1; /* Each row will take 1/3 of the .game-over space */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px; /* Optional: if you want some spacing inside the rows */
+    
+}
+
+/* Additional specific styling for title and restart prompt if needed */
+.game-over-title {
+    font-size: 1.5em; /* Bigger font size for the title */
+    font-weight: bold; /* Optional: if you want the title to be bold */
+    
+}
+
+.game-over-restart {
+    font-size: 1em; /* Regular font size for the restart prompt */
+    opacity: 0.8; /* Optional: slightly transparent to be less prominent than the score and title */
+    
+}
+
+/* You can add a hover effect to prompt interaction with the restart message, even though it's just a visual cue */
+.game-over-restart:hover {
+    opacity: 1; /* Full opacity when hovering over the restart prompt */
+    cursor: pointer; /* Change cursor to indicate it can be clicked (even though it's the Enter key that triggers the restart) */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
