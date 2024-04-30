@@ -31,14 +31,14 @@ Oyunun nasıl oynandığını gösteren bir videoya bu linkten ulaşabilirsiniz:
     <tr>
       <th>Başlangıç Ekranı</th>
       <th>Oynanış Anı</th>
-      <th>Oyun Bitiş Ekranı</th>
       <th>Boost Anı</th>
+      <th>Oyun Bitiş Ekranı</th>
     </tr>
     <tr>
+      <td><img width=150 src="https://github.com/KasimDeliaci/snakegame/blob/main/ScreenShots/initial.png"></td>
+      <td><img width=150 src="https://github.com/KasimDeliaci/snakegamae/blob/main/ScreenShots/midGame.png"></td>
       <td><img width=150 src="https://github.com/KasimDeliaci/snakegame/blob/main/ScreenShots/boost.png"></td>
-      <td><img width=150 src="https://github.com/elifpazarda/PatlayanSayilar/blob/main/SS/fromGame.png"></td>
-      <td><img width=150 src="https://github.com/elifpazarda/PatlayanSayilar/blob/main/SS/failScreen.png"></td>
-      <td><img width=150 src="https://github.com/elifpazarda/PatlayanSayilar/blob/main/SS/playAgain.png"></td>
+      <td><img width=150 src="https://github.com/KasimDeliaci/snakegame/blob/main/ScreenShots/gameOver.png"></td>
     </tr>
   </table>
 </div>
