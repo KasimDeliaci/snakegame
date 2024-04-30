@@ -36,7 +36,7 @@ Oyunun nasıl oynandığını gösteren bir videoya bu linkten ulaşabilirsiniz:
     </tr>
     <tr>
       <td><img width=150 src="https://github.com/KasimDeliaci/snakegame/blob/main/ScreenShots/initial.png"></td>
-      <td><img width=150 src="https://github.com/KasimDeliaci/snakegamae/blob/main/ScreenShots/midGame.png"></td>
+      <td><img width=150 src="https://github.com/KasimDeliaci/snakegame/blob/main/ScreenShots/midGame.png"></td>
       <td><img width=150 src="https://github.com/KasimDeliaci/snakegame/blob/main/ScreenShots/boost.png"></td>
       <td><img width=150 src="https://github.com/KasimDeliaci/snakegame/blob/main/ScreenShots/gameOver.png"></td>
     </tr>
