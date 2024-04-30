@@ -4,7 +4,8 @@ Bu repo, klasik yılan oyununun modern bir web versiyonunu içermektedir. Oyun, 
 
 Süre limiti yok; elmaları toplayın hızlanmak için shift'e basın ve en yüksek skoru yapmaya çalışın kendinizi yemeye çalışmayın :( Yerseniz üzülmeyin çünkü yine de iyi ilerlediniz :)
 
-DİKKAT!
+<b>!DİKKAT!</b>
+
 -Hızlandırma animasyonu özellikle yüksek skorlarda hızlı renk geçişleri içerdiği için fotosentitif epilepsiyi tetikleyebilir.
 
 ## Özellikler
